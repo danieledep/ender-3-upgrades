@@ -2,7 +2,7 @@
 Stl printable files, firmware and cura profiles for improving the ender 3 
 
 ## Resources
--[Marlin Firmware Services](https://marlin.crc.id.au/)
+- [Marlin Firmware Services](https://marlin.crc.id.au/)
    
 ## Video guides
 - [How to install the dual Z rod for ender 3, ender 3 pro, ender 3 V2](https://www.youtube.com/watch?v=9OaKNyAEfik)   
