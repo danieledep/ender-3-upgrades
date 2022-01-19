@@ -10,3 +10,4 @@ Stl printable files, firmware and cura profiles for improving the ender 3
 - [3D Printed Direct Drive for the Ender 3 Pro](https://www.youtube.com/watch?v=Zbk0viFC1ew)
 - [Ender3 V2 dual Z axis upgrade with pulley and timing belt with single stepper motor](https://www.youtube.com/watch?v=TIptLVvszLU)
 - [Hero Me Gen 5: The ultimate part cooling fan duct for Creality 3D printers?](https://www.youtube.com/watch?v=DUkoKzOFWFs)
+- [How to do PID Tuning on your 3D printer with Octoprint](https://www.youtube.com/watch?v=g-s4qGuSFt8)
