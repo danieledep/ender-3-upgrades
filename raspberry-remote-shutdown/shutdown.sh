@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Shutdown started"
-mosquitto_pub -h hub.local -t prusa/mains/sonoff -m OFF
+mosquitto_pub -h octopi.local -t ender/mains -m "off"
 sudo shutdown now
