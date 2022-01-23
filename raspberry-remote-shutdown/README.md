@@ -20,7 +20,7 @@ To install everything via install.sh download the folder and ``` cd ``` into it:
 ``` cd /Downloads/raspberry-remote-shutdown-main ```   
 
 Make the script executable:   
-``` Chmod +x install.sh ```   
+``` chmod +x install.sh ```   
 
 Run the script:    
 ``` sudo ./install.sh ```   
