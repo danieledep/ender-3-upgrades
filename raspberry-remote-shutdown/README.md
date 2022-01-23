@@ -6,7 +6,7 @@
 
 ## Resources
 
-- [FTDI Drivers](https://ftdichip.com/drivers/d2xx-drivers/)
+- [D2XX Drivers - FTDI](https://ftdichip.com/drivers/d2xx-drivers/)
 - [Sonoff – $5 WiFi Wireless Smart Switch Introduction](https://randomnerdtutorials.com/sonoff-5-wifi-wireless-smart-switch-introduction/)
 - [How to Flash a Custom Firmware to Sonoff](https://randomnerdtutorials.com/how-to-flash-a-custom-firmware-to-sonoff/)
 - [Reprogram Sonoff Smart Switch with Web Server](https://randomnerdtutorials.com/reprogram-sonoff-smart-switch-with-web-server/)
