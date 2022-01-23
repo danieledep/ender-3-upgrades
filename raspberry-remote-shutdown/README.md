@@ -14,6 +14,16 @@
 - [Testing Mosquitto Broker and Client on Raspberry Pi](https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/)
 - [Using ESPHome With Sonoff Basic](https://esphome.io/devices/sonoff_basic.html)
 
+## Installation 
+
+To install everything via install.sh download the folder and ``` cd ``` into it:   
+``` cd /Downloads/raspberry-remote-shutdown-main ```   
+
+Make the script executable:   
+``` Chmod +x install.sh ```   
+
+Run the script:    
+``` sudo ./install.sh ```   
 
 ## Testing MQTT
 
@@ -28,13 +38,3 @@ To turn off:
 To turn off after 30 seconds delay:   
 ``` mosquitto_pub -d -t ender/mains -m "off" ```   
 
-## Installation 
-
-To install everything via install.sh download the folder and ``` cd ``` into it:   
-``` cd /Downloads/raspberry-remote-shutdown-main ```   
-
-Make the script executable:   
-``` Chmod +x install.sh ```   
-
-Run the script:    
-``` sudo ./install.sh ```   
