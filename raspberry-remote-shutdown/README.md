@@ -10,7 +10,7 @@
 - [Reprogram Sonoff Smart Switch with Web Server](https://randomnerdtutorials.com/reprogram-sonoff-smart-switch-with-web-server/)
 - [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/)
 - [Testing Mosquitto Broker and Client on Raspberry Pi](https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/)
-- [ESPHome website](https://esphome.io/index.html)
+- [Using ESPHome With Sonoff Basic](https://esphome.io/devices/sonoff_basic.html)
 
 
 ## Testing MQTT
