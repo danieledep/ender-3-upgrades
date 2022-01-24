@@ -18,8 +18,8 @@
         "nl": false,
         "rap": false,
         "inputs": 0,
-        "x": 350,
-        "y": 180,
+        "x": 420,
+        "y": 540,
         "wires": [
             [
                 "179c7e9a.b21511"
@@ -39,16 +39,16 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 830,
-        "y": 120,
+        "x": 1130,
+        "y": 560,
         "wires": []
     },
     {
         "id": "63dd5bc4.c0e4e4",
         "type": "mqtt out",
         "z": "37d7f76b.8d69f8",
-        "name": "Ender Switch",
-        "topic": "octoprint/shutdown",
+        "name": "",
+        "topic": "ender/mains",
         "qos": "0",
         "retain": "false",
         "respTopic": "",
@@ -57,8 +57,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9d9e712bf60b8c81",
-        "x": 1150,
-        "y": 238,
+        "x": 1080,
+        "y": 400,
         "wires": []
     },
     {
@@ -72,11 +72,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 180,
+        "x": 620,
+        "y": 540,
         "wires": [
             [
-                "32f3f58d.044a4a"
+                "32f3f58d.044a4a",
+                "63dd5bc4.c0e4e4",
+                "3e8e02a8.2fed9e"
             ]
         ]
     },
@@ -97,8 +99,8 @@
         "topic": "",
         "payload": "ON",
         "payloadType": "str",
-        "x": 330,
-        "y": 440,
+        "x": 550,
+        "y": 200,
         "wires": [
             [
                 "58e9dfb3.67c4c"
@@ -119,8 +121,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9d9e712bf60b8c81",
-        "x": 710,
-        "y": 440,
+        "x": 1120,
+        "y": 200,
         "wires": []
     },
     {
@@ -136,8 +138,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 810,
-        "y": 300,
+        "x": 890,
+        "y": 700,
         "wires": []
     },
     {
@@ -151,8 +153,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 240,
+        "x": 620,
+        "y": 600,
         "wires": [
             [
                 "51802b11.d3bb54",
@@ -172,8 +174,8 @@
         "nl": false,
         "rap": false,
         "inputs": 0,
-        "x": 330,
-        "y": 240,
+        "x": 400,
+        "y": 600,
         "wires": [
             [
                 "becb66e0.56c8c8"
@@ -194,14 +196,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1130,
-        "y": 300,
+        "y": 620,
         "wires": []
     },
     {
         "id": "d6666d50.e1a2c",
         "type": "inject",
         "z": "37d7f76b.8d69f8",
-        "name": "",
+        "name": "OFF RPI",
         "props": [
             {
                 "p": "payload"
@@ -214,8 +216,8 @@
         "topic": "",
         "payload": "OFF",
         "payloadType": "str",
-        "x": 330,
-        "y": 600,
+        "x": 560,
+        "y": 360,
         "wires": [
             [
                 "3e8e02a8.2fed9e"
@@ -236,8 +238,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9d9e712bf60b8c81",
-        "x": 670,
-        "y": 598,
+        "x": 1080,
+        "y": 300,
         "wires": []
     },
     {
@@ -257,8 +259,8 @@
         "topic": "",
         "payload": "OFF",
         "payloadType": "str",
-        "x": 330,
-        "y": 500,
+        "x": 550,
+        "y": 280,
         "wires": [
             [
                 "58e9dfb3.67c4c"
@@ -278,11 +280,37 @@
         "timer": "600",
         "repeat": false,
         "again": true,
-        "x": 830,
-        "y": 240,
+        "x": 850,
+        "y": 600,
         "wires": [
             [
-                "d7cd07af.9d31c8"
+                "d7cd07af.9d31c8",
+                "63dd5bc4.c0e4e4"
+            ]
+        ]
+    },
+    {
+        "id": "bb68828049306b0c",
+        "type": "inject",
+        "z": "37d7f76b.8d69f8",
+        "name": "OFF (30s DELAY)",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 510,
+        "y": 440,
+        "wires": [
+            [
+                "63dd5bc4.c0e4e4"
             ]
         ]
     },
