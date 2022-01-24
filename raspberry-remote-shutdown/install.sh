@@ -6,6 +6,7 @@ sudo apt install python-pip
 sudo pip install tornado esptool
 sudo pip3 install esphome
 sudo apt install -y mosquitto mosquitto-clients
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 
 echo "installing service"
 
