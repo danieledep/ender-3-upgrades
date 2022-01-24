@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "installing pip3"
+echo "installing pip3 - esphome - mosquitto - nodered"
 sudo apt update
 sudo apt upgrade
 sudo apt install python-pip
