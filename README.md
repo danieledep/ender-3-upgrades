@@ -1,6 +1,14 @@
 # 🛠 ender-3-upgrades
 Stl printable files, firmware and cura profiles for improving the ender 3 
 
+## Octoprint plugins
+- Bed visualizer
+- Cancel objects
+- Firmware check
+- Firmware updater
+- MQTT
+- Navbar temperature plugin
+
 ## Resources
 - [Marlin Firmware Services](https://marlin.crc.id.au/)
 - [Autodesk 3d print test model](https://github.com/kickstarter/kickstarter-autodesk-3d)
